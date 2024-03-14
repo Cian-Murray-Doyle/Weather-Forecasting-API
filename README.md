@@ -1,5 +1,9 @@
 # Weather-Forecasting-API
-Introduction to the Problem
+
+##NOTE
+This code was originally written in Python and later adapted to reflect my understanding of the R programming language. At the time of running API key may have expired.
+
+##Introduction to the Problem
 
 Vino Veritas is a winemaker that uses a manual system for predicting frost. This involves getting a 3-day forecast for the minimum temperature in vineyards around the world. The task of getting this data is relatively quick, but must be done every day, including weekends.
 
