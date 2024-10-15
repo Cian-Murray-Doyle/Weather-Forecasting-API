@@ -27,7 +27,7 @@ vineyards_city_lat_long = vineyards_alpha2.merge(city_lat_long, on=["Alpha-2 cod
 vineyards_city_lat_long.drop("Alpha-2 code", inplace=True, axis=1)
 
 core_api = r"http://api.weatherapi.com/v1/forecast.json?"
-api_key = "759e6ee717924f80802221854232510"
+api_key = ""
 
 for i in range(len(vineyards_city_lat_long)):
     q = vineyards_city_lat_long.loc[i,"lat,long"]
